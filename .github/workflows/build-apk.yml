@@ -27,5 +27,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Tekaful-APK
-          path: '**/build/outputs/apk/debug/*.apk'
-          if-no-files-found:error 
+                   if-no-files-found: error 
