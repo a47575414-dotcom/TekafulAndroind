@@ -3,10 +3,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:theme="@android:style/Theme.Material.Light.NoActionBar"
-        android:label="التكافل"
         android:allowBackup="true"
-        android:supportsRtl="true">
+        android:label="التكافل"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
         <activity
             android:name="com.takaful.app.MainActivity"
@@ -18,8 +18,7 @@
             </intent-filter>
 
         </activity>
-
     </application>
-
 </manifest>
+
 
