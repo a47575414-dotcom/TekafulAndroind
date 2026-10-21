@@ -28,4 +28,4 @@ jobs:
         with:
           name: Tekaful-APK
           path: '**/build/outputs/apk/debug/*.apk'
-          if-no-files-found: 
+          if-no-files-found:error 
